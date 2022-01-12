@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "merchants",
+  "info": {
+    "name": "Merchants",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "company": {
+      "type": "string"
+    },
+    "confirmed": {
+      "type": "boolean"
+    },
+    "resetPasswordToken": {
+      "type": "string"
+    },
+    "role": {
+      "plugin": "users-permissions",
+      "model": "role"
+    }
+  }
+}

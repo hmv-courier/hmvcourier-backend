@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "Task"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address1": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "Done": {
+      "type": "boolean",
+      "default": false
+    },
+    "pickup": {
+      "type": "datetime"
+    },
+    "delivery": {
+      "type": "datetime"
+    },
+    "price": {
+      "type": "biginteger"
+    }
+  }
+}
