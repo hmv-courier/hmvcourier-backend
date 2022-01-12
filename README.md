@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+This is the backend of the hmvcourier app/website
